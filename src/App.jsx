@@ -19,7 +19,7 @@ function Student ()
 {
   return <div>
     <h2>Student Details</h2>
-    <p>Name: Shyam</p>
+    <p className='btn'>Name: Shyam</p>
     <p>Roll: 4512141</p>
   </div>
 }

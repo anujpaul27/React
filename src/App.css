@@ -41,6 +41,11 @@
   color: #888;
 }
 
-
+.btn {
+  background-color: rgb(84, 84, 230);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
 
 
