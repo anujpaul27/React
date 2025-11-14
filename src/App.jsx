@@ -16,7 +16,7 @@ function App() {
 }
 
 // Function rule is start to the function name is capital letter
-function Student (prot)
+function Student ({name,roll})
 {
   const obj = {
       backgroundColor: 'rgb(84, 84, 230)',
@@ -26,8 +26,8 @@ function Student (prot)
   }
   return <div>
     <h2>Student Details</h2>
-    <p className='btn'>Name: {prot.name}</p>
-    <p style={obj}>Roll: {prot.roll}</p>
+    <p className='btn'>Name: {name}</p>
+    <p style={obj}>Roll: {roll}</p>
   </div>
 }
 
