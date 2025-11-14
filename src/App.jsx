@@ -9,13 +9,14 @@ function App() {
     <>
       
       <h1>Vite + React</h1>
-      <Student></Student>
+      <Student name='Shyam' roll='12141541'></Student>
+      <Student name='Ram' roll='12184551'></Student>
     </>
   )
 }
 
 // Function rule is start to the function name is capital letter
-function Student ()
+function Student (prot)
 {
   const obj = {
       backgroundColor: 'rgb(84, 84, 230)',
@@ -25,8 +26,8 @@ function Student ()
   }
   return <div>
     <h2>Student Details</h2>
-    <p className='btn'>Name: Shyam</p>
-    <p style={obj}>Roll: 4512141</p>
+    <p className='btn'>Name: {prot.name}</p>
+    <p style={obj}>Roll: {prot.roll}</p>
   </div>
 }
 
