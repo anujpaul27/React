@@ -1,13 +1,17 @@
-import { useState } from 'react'
+import { Children, useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Todo from './Todo'
-import Actor from './Actor'
+import { ChildOfActor,Actor } from './Actor'
 
 function App() {
   const [count, setCount] = useState(0)
   const ar = ['kanha','Natkat','Nanda Dulal']
+  const obj = [
+    {name:'Lav', age:10},
+    {name:'Kush', age:12},
+  ]
   return (
     <>
       
@@ -20,6 +24,10 @@ function App() {
       {
         ar.map(actor=><Actor name={actor}></Actor>)
       }      
+      
+      {
+        obj.map(child=><ChildOfActor name={child.name} age={child.age}></ChildOfActor>)
+      }
     </>
   )
 }
