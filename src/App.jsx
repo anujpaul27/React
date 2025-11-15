@@ -3,9 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Todo from './Todo'
+import Actor from './Actor'
 
 function App() {
   const [count, setCount] = useState(0)
+  const ar = ['kanha','Natkat','Nanda Dulal']
   return (
     <>
       
@@ -14,6 +16,10 @@ function App() {
       <Student name='Ram' roll='12184551'></Student>
       <Todo name='Today Module' isDone={true}></Todo>
       <Todo name='Today Practice' isDone={false}></Todo>
+      <Actor name='Sundor' ></Actor>
+      {
+        ar.map(actor=><Actor name={actor}></Actor>)
+      }      
     </>
   )
 }
