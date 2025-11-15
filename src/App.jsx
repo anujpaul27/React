@@ -12,8 +12,8 @@ function App() {
       <h1>Vite + React</h1>
       <Student name='Shyam' roll='12141541'></Student>
       <Student name='Ram' roll='12184551'></Student>
-      <Todo name='Complate Module'></Todo>
-      <Todo name='Pending Your Practice'></Todo>
+      <Todo name='Today Module' isDone={true}></Todo>
+      <Todo name='Today Practice' isDone={false}></Todo>
     </>
   )
 }
