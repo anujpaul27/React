@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Todo from './Todo'
 import { ChildOfActor,Actor } from './Actor'
-import {Counter} from './State'
+import FetchData from './State'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +17,7 @@ function App() {
     <>
       
       <h1>Vite + React</h1>
-      <Counter></Counter>
+      <FetchData></FetchData>
       <Student name='Shyam' roll='12141541'></Student>
       <Student name='Ram' roll='12184551'></Student>
       <Todo name='Today Module' isDone={true}></Todo>

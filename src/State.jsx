@@ -1,24 +1,22 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
+import ShowUser from "./useEffect";
 
-export  function Counter ()
+export default function FetchData ()
 {
-    const [Count,setCount] = useState(0)
+    const [users,setUsers] = useState ([])
 
-    function IncreaseCount()
-    {
-        const newCount = Count + 1
-        setCount(newCount)
-    }
+    useEffect(()=>{
+        fetch('https://jsonplaceholder.typicode.com/users')
+        .then(res=> res.json())
+        .then(data=> setUsers(data))
+    },[])
 
-    function DecreaseCount()
-    {
-        const newCount = Count - 1
-        setCount(newCount)
-    }
-
-    return <div>
-        <h2>Counter: {Count}</h2>
-        <button onClick={IncreaseCount}>Increase</button>
-        <button onClick={DecreaseCount}>Decrease</button>
-    </div>
+    return (
+       <div>
+            <p>User Length: {users.length}</p>
+            {
+                users.map(user=> <ShowUser user={user}></ShowUser>)
+            }
+       </div>
+    )
 }
