@@ -41,9 +41,15 @@ function Student ({name,roll})
       padding: '10px',
       borderRadius: '10px',
   }
+
+  function clicked ()
+  {
+    alert('hello boss')
+  }
   return <div>
     <h2>Student Details</h2>
     <p className='btn'>Name: {name}</p>
+    <p style={obj}>Roll: {roll}</p>
     <button onClick={clicked}>More</button>
   </div>
 }
