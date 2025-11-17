@@ -1,0 +1,12 @@
+.btn {
+    height: 200px;
+    width: 150px;
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
