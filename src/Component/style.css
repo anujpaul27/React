@@ -1,0 +1,25 @@
+
+.border {
+    width: 95%;
+    margin: 20px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.visit {
+    background-color: gray;
+}
+
+.wt
+{
+    width: 90%;
+}
