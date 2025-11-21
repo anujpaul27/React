@@ -1,0 +1,378 @@
+[
+  {
+    "name": { "common": "Bangladesh", "official": "People's Republic of Bangladesh" },
+    "capital": ["Dhaka"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/bd.png",
+      "svg": "https://flagcdn.com/bd.svg"
+    }
+  },
+  {
+    "name": { "common": "India", "official": "Republic of India" },
+    "capital": ["New Delhi"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/in.png",
+      "svg": "https://flagcdn.com/in.svg"
+    }
+  },
+  {
+    "name": { "common": "Sri Lanka", "official": "Democratic Socialist Republic of Sri Lanka" },
+    "capital": ["Sri Jayawardenepura Kotte"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/lk.png",
+      "svg": "https://flagcdn.com/lk.svg"
+    }
+  },
+  {
+    "name": { "common": "China", "official": "People's Republic of China" },
+    "capital": ["Beijing"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/cn.png",
+      "svg": "https://flagcdn.com/cn.svg"
+    }
+  },
+  {
+    "name": { "common": "Japan", "official": "Japan" },
+    "capital": ["Tokyo"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/jp.png",
+      "svg": "https://flagcdn.com/jp.svg"
+    }
+  },
+  {
+    "name": { "common": "South Korea", "official": "Republic of Korea" },
+    "capital": ["Seoul"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/kr.png",
+      "svg": "https://flagcdn.com/kr.svg"
+    }
+  },
+  {
+    "name": { "common": "Indonesia", "official": "Republic of Indonesia" },
+    "capital": ["Jakarta"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/id.png",
+      "svg": "https://flagcdn.com/id.svg"
+    }
+  },
+  {
+    "name": { "common": "Malaysia", "official": "Malaysia" },
+    "capital": ["Kuala Lumpur"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/my.png",
+      "svg": "https://flagcdn.com/my.svg"
+    }
+  },
+
+  {
+    "name": { "common": "United States", "official": "United States of America" },
+    "capital": ["Washington, D.C."],
+    "region": "Americas",
+    "flags": {
+      "png": "https://flagcdn.com/w320/us.png",
+      "svg": "https://flagcdn.com/us.svg"
+    }
+  },
+  {
+    "name": { "common": "Canada", "official": "Canada" },
+    "capital": ["Ottawa"],
+    "region": "Americas",
+    "flags": {
+      "png": "https://flagcdn.com/w320/ca.png",
+      "svg": "https://flagcdn.com/ca.svg"
+    }
+  },
+  {
+    "name": { "common": "Mexico", "official": "United Mexican States" },
+    "capital": ["Mexico City"],
+    "region": "Americas",
+    "flags": {
+      "png": "https://flagcdn.com/w320/mx.png",
+      "svg": "https://flagcdn.com/mx.svg"
+    }
+  },
+  {
+    "name": { "common": "Brazil", "official": "Federative Republic of Brazil" },
+    "capital": ["Brasília"],
+    "region": "Americas",
+    "flags": {
+      "png": "https://flagcdn.com/w320/br.png",
+      "svg": "https://flagcdn.com/br.svg"
+    }
+  },
+  {
+    "name": { "common": "Argentina", "official": "Argentine Republic" },
+    "capital": ["Buenos Aires"],
+    "region": "Americas",
+    "flags": {
+      "png": "https://flagcdn.com/w320/ar.png",
+      "svg": "https://flagcdn.com/ar.svg"
+    }
+  },
+
+  {
+    "name": { "common": "United Kingdom", "official": "United Kingdom of Great Britain and Northern Ireland" },
+    "capital": ["London"],
+    "region": "Europe",
+    "flags": {
+      "png": "https://flagcdn.com/w320/gb.png",
+      "svg": "https://flagcdn.com/gb.svg"
+    }
+  },
+  {
+    "name": { "common": "France", "official": "French Republic" },
+    "capital": ["Paris"],
+    "region": "Europe",
+    "flags": {
+      "png": "https://flagcdn.com/w320/fr.png",
+      "svg": "https://flagcdn.com/fr.svg"
+    }
+  },
+  {
+    "name": { "common": "Germany", "official": "Federal Republic of Germany" },
+    "capital": ["Berlin"],
+    "region": "Europe",
+    "flags": {
+      "png": "https://flagcdn.com/w320/de.png",
+      "svg": "https://flagcdn.com/de.svg"
+    }
+  },
+  {
+    "name": { "common": "Italy", "official": "Italian Republic" },
+    "capital": ["Rome"],
+    "region": "Europe",
+    "flags": {
+      "png": "https://flagcdn.com/w320/it.png",
+      "svg": "https://flagcdn.com/it.svg"
+    }
+  },
+  {
+    "name": { "common": "Spain", "official": "Kingdom of Spain" },
+    "capital": ["Madrid"],
+    "region": "Europe",
+    "flags": {
+      "png": "https://flagcdn.com/w320/es.png",
+      "svg": "https://flagcdn.com/es.svg"
+    }
+  },
+
+  {
+    "name": { "common": "Saudi Arabia", "official": "Kingdom of Saudi Arabia" },
+    "capital": ["Riyadh"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/sa.png",
+      "svg": "https://flagcdn.com/sa.svg"
+    }
+  },
+  {
+    "name": { "common": "United Arab Emirates", "official": "United Arab Emirates" },
+    "capital": ["Abu Dhabi"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/ae.png",
+      "svg": "https://flagcdn.com/ae.svg"
+    }
+  },
+  {
+    "name": { "common": "Qatar", "official": "State of Qatar" },
+    "capital": ["Doha"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/qa.png",
+      "svg": "https://flagcdn.com/qa.svg"
+    }
+  },
+  {
+    "name": { "common": "Turkey", "official": "Republic of Turkey" },
+    "capital": ["Ankara"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/tr.png",
+      "svg": "https://flagcdn.com/tr.svg"
+    }
+  },
+  {
+    "name": { "common": "Iran", "official": "Islamic Republic of Iran" },
+    "capital": ["Tehran"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/ir.png",
+      "svg": "https://flagcdn.com/ir.svg"
+    }
+  },
+
+  {
+    "name": { "common": "Egypt", "official": "Arab Republic of Egypt" },
+    "capital": ["Cairo"],
+    "region": "Africa",
+    "flags": {
+      "png": "https://flagcdn.com/w320/eg.png",
+      "svg": "https://flagcdn.com/eg.svg"
+    }
+  },
+  {
+    "name": { "common": "Nigeria", "official": "Federal Republic of Nigeria" },
+    "capital": ["Abuja"],
+    "region": "Africa",
+    "flags": {
+      "png": "https://flagcdn.com/w320/ng.png",
+      "svg": "https://flagcdn.com/ng.svg"
+    }
+  },
+  {
+    "name": { "common": "South Africa", "official": "Republic of South Africa" },
+    "capital": ["Pretoria"],
+    "region": "Africa",
+    "flags": {
+      "png": "https://flagcdn.com/w320/za.png",
+      "svg": "https://flagcdn.com/za.svg"
+    }
+  },
+  {
+    "name": { "common": "Kenya", "official": "Republic of Kenya" },
+    "capital": ["Nairobi"],
+    "region": "Africa",
+    "flags": {
+      "png": "https://flagcdn.com/w320/ke.png",
+      "svg": "https://flagcdn.com/ke.svg"
+    }
+  },
+  {
+    "name": { "common": "Ethiopia", "official": "Federal Democratic Republic of Ethiopia" },
+    "capital": ["Addis Ababa"],
+    "region": "Africa",
+    "flags": {
+      "png": "https://flagcdn.com/w320/et.png",
+      "svg": "https://flagcdn.com/et.svg"
+    }
+  },
+
+  {
+    "name": { "common": "Australia", "official": "Commonwealth of Australia" },
+    "capital": ["Canberra"],
+    "region": "Oceania",
+    "flags": {
+      "png": "https://flagcdn.com/w320/au.png",
+      "svg": "https://flagcdn.com/au.svg"
+    }
+  },
+  {
+    "name": { "common": "New Zealand", "official": "New Zealand" },
+    "capital": ["Wellington"],
+    "region": "Oceania",
+    "flags": {
+      "png": "https://flagcdn.com/w320/nz.png",
+      "svg": "https://flagcdn.com/nz.svg"
+    }
+  },
+  {
+    "name": { "common": "Fiji", "official": "Republic of Fiji" },
+    "capital": ["Suva"],
+    "region": "Oceania",
+    "flags": {
+      "png": "https://flagcdn.com/w320/fj.png",
+      "svg": "https://flagcdn.com/fj.svg"
+    }
+  },
+
+  {
+    "name": { "common": "Russia", "official": "Russian Federation" },
+    "capital": ["Moscow"],
+    "region": "Europe",
+    "flags": {
+      "png": "https://flagcdn.com/w320/ru.png",
+      "svg": "https://flagcdn.com/ru.svg"
+    }
+  },
+  {
+    "name": { "common": "Ukraine", "official": "Ukraine" },
+    "capital": ["Kyiv"],
+    "region": "Europe",
+    "flags": {
+      "png": "https://flagcdn.com/w320/ua.png",
+      "svg": "https://flagcdn.com/ua.svg"
+    }
+  },
+  {
+    "name": { "common": "Poland", "official": "Republic of Poland" },
+    "capital": ["Warsaw"],
+    "region": "Europe",
+    "flags": {
+      "png": "https://flagcdn.com/w320/pl.png",
+      "svg": "https://flagcdn.com/pl.svg"
+    }
+  },
+  {
+    "name": { "common": "Netherlands", "official": "Kingdom of the Netherlands" },
+    "capital": ["Amsterdam"],
+    "region": "Europe",
+    "flags": {
+      "png": "https://flagcdn.com/w320/nl.png",
+      "svg": "https://flagcdn.com/nl.svg"
+    }
+  },
+  {
+    "name": { "common": "Belgium", "official": "Kingdom of Belgium" },
+    "capital": ["Brussels"],
+    "region": "Europe",
+    "flags": {
+      "png": "https://flagcdn.com/w320/be.png",
+      "svg": "https://flagcdn.com/be.svg"
+    }
+  },
+
+  {
+    "name": { "common": "Thailand", "official": "Kingdom of Thailand" },
+    "capital": ["Bangkok"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/th.png",
+      "svg": "https://flagcdn.com/th.svg"
+    }
+  },
+  {
+    "name": { "common": "Vietnam", "official": "Socialist Republic of Viet Nam" },
+    "capital": ["Hanoi"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/vn.png",
+      "svg": "https://flagcdn.com/vn.svg"
+    }
+  },
+  {
+    "name": { "common": "Philippines", "official": "Republic of the Philippines" },
+    "capital": ["Manila"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/ph.png",
+      "svg": "https://flagcdn.com/ph.svg"
+    }
+  },
+  {
+    "name": { "common": "Singapore", "official": "Republic of Singapore" },
+    "capital": ["Singapore"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/sg.png",
+      "svg": "https://flagcdn.com/sg.svg"
+    }
+  },
+  {
+    "name": { "common": "Myanmar", "official": "Republic of the Union of Myanmar" },
+    "capital": ["Naypyidaw"],
+    "region": "Asia",
+    "flags": {
+      "png": "https://flagcdn.com/w320/mm.png",
+      "svg": "https://flagcdn.com/mm.svg"
+    }
+  }
+]
