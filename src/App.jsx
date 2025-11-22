@@ -9,7 +9,6 @@ function App() {
   return (
     <>
     <Navbar></Navbar>
-    <Header></Header>
     <Main></Main>
     </>
   )
