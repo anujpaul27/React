@@ -1,0 +1,110 @@
+[
+  {
+    "id":"0011",
+    "player_name": "Virat Kohli",
+    "country": "India",
+    "rating": 95,
+    "plyer_type": "Batsman",
+    "price": 17,
+    "player_image": "https://static.toiimg.com/thumb/msid-121444693,width-400,resizemode-4/Virat-Kohli.jpg"
+  },
+  {
+    "id":"0022",
+    "player_name": "MS Dhoni",
+    "country": "India",
+    "rating": 92,
+    "plyer_type": "Batsman",
+    "price": 15,
+    "player_image": "https://i.pinimg.com/736x/36/d7/f3/36d7f3e4ea55ed1e87f81fd930827888.jpg"
+  },
+  {
+    "id":"0033",
+    "player_name": "Rohit Sharma",
+    "country": "India",
+    "rating": 91,
+    "plyer_type": "Batsman",
+    "price": 14,
+    "player_image": "https://media.newindianexpress.com/newindianexpress%2F2025-04-01%2Fbc1gpp5u%2FAP25088521942501.jpg?w=480&auto=format%2Ccompress"
+  },
+  {
+    "id":"0044",
+    "player_name": "Jasprit Bumrah",
+    "country": "India",
+    "rating": 90,
+    "plyer_type": "Bowler",
+    "price": 12,
+    "player_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7PjAzLeoATZjUQ9eEaSskNN_6V09_4-P6Qw&s"
+  },
+  {
+    "id":"0055",
+    "player_name": "Andre Russell",
+    "country": "West Indies",
+    "rating": 89,
+    "plyer_type": "All-rounder",
+    "price": 12,
+    "player_image": "https://english.cdn.zeenews.com/sites/default/files/2023/04/29/1192144-russell-1.png"
+  },
+  {
+    "id":"0066",
+    "player_name": "AB de Villiers",
+    "country": "South Africa",
+    "rating": 94,
+    "plyer_type": "Batsman",
+    "price": 11,
+    "player_image": "https://api.bdcrictime.com/ab-de-villiers-rcb-final-promise-17_05_2025.jpg"
+  },
+  {
+    "id":"0077",
+    "player_name": "David Warner",
+    "country": "Australia",
+    "rating": 90,
+    "plyer_type": "Batsman",
+    "price": 12.50,
+    "player_image": "https://www.mykhel.com/img/2020/11/warner-1604385909.jpg"
+  },
+  {
+    "id":"0088",
+    "player_name": "Ben Stokes",
+    "country": "England",
+    "rating": 88,
+    "plyer_type": "All-rounder",
+    "price": 12.50,
+    "player_image": "https://c.ndtvimg.com/2021-04/7drf6gk8_ben-stokes-bcciipl_625x300_13_April_21.jpg"
+  },
+  {
+    "id":"0099",
+    "player_name": "Steve Smith",
+    "country": "Australia",
+    "rating": 87,
+    "plyer_type": "Batsman",
+    "price": 12,
+    "player_image": "https://c.ndtvimg.com/2025-01/pd9u2ufo_steve-smith_625x300_11_January_25.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
+  },
+  {
+    "id":"0010",
+    "player_name": "Kane Williamson",
+    "country": "New Zealand",
+    "rating": 88,
+    "plyer_type": "Batsman",
+    "price": 6,
+    "player_image": "https://c.ndtvimg.com/2022-03/ai88imr8_kane-williamson-bcciipl_625x300_30_March_22.jpg?im=FeatureCrop,algorithm=dnn,width=806,height=605"
+  },
+  {
+    "id":"00111",
+    "player_name": "Sunil Narine",
+    "country": "West Indies",
+    "rating": 86,
+    "plyer_type": "All-rounder",
+    "price": 12.50,
+    "player_image": "https://assets.telegraphindia.com/telegraph/2023/May/1683448068_newnarine.jpg"
+  },
+  {
+    "id":"00112",
+    "player_name": "KL Rahul",
+    "country": "India",
+    "rating": 89,
+    "plyer_type": "Batsman",
+    "price": 11,
+    "player_image": "https://onecricketnews.akamaized.net/parth-editor/oc-dashboard/news-images-prod/1748937487330_klrahul(1).jpg?type=hq"
+  }
+]
