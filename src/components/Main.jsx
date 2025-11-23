@@ -27,6 +27,7 @@ const Main = ({coin,handleCoinUpdate}) => {
         setSelected(true)
     }
 
+    // Selected Player
     function handleSelectedPlayer (playerObj)
     {
         let newCoin = parseInt(coin)
@@ -43,12 +44,19 @@ const Main = ({coin,handleCoinUpdate}) => {
         }
     }
 
+    // Remove Player
+    function removePlayer (id)
+    {
+        const remainingSelectedPlayer = SelectedPlayer.filter(player=> player.id != id)
+        setSelectedPlayer(remainingSelectedPlayer)
+    }
+
     return (
     <section className="w-10/12 mx-auto">
 
         {/* Available Player Section */}
         <div className="flex justify-between my-10">
-            <h1>Available Players</h1>
+            <h1>{available ? 'Available Players':`Selected Player ${SelectedPlayer.length}/6`}</h1>
             <div className="flex gap-3">
                 <button onClick={handleAvailable} className="btn btn-accent">Available </button>
                 <button onClick={handleSelected} className="btn btn-accent">Selected</button>
@@ -75,6 +83,7 @@ const Main = ({coin,handleCoinUpdate}) => {
                     key={inx}
                     count={inx}
                     player={player}
+                    removePlayer={removePlayer}
                     ></SelectedCart>)
                 }
             </ul>
