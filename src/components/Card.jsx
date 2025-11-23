@@ -22,7 +22,7 @@ const Card = ({player,handleSelectedPlayer}) => {
                     <p>{rating}</p>
                 </div>
                 <div className="flex justify-between text-[12px]">
-                    <p>Price: {price}</p>
+                    <p>Price: {price} Cr</p>
                     <button onClick={()=>handleSelectedPlayer(player)} className="btn btn-sm">Choose Player</button>
                 </div>
             </div>

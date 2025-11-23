@@ -5,9 +5,10 @@ import SelectedCart from "./SelectedCart";
 const Main = ({coin,handleCoinUpdate}) => {
 
     const [player, setPlayer] = useState([]);
+    // Condition check player for the show content
     const [available, setAvailable] = useState(true)
     const [selected, setSelected] = useState(false)
-    // For Selected Player
+    // For Selected Player List
     const [SelectedPlayer, setSelectedPlayer] = useState([])
 
     useEffect(()=>{
@@ -32,11 +33,15 @@ const Main = ({coin,handleCoinUpdate}) => {
     {
         let newCoin = parseInt(coin)
         console.log(playerObj.price, newCoin);        
-        if (playerObj.price <= newCoin)
+        if (playerObj.price <= newCoin && SelectedPlayer.length < 6)
         {
             newCoin-=playerObj.price
             setSelectedPlayer([...SelectedPlayer,playerObj])
             handleCoinUpdate(newCoin)
+        }
+        else if (SelectedPlayer.length > 5)
+        {
+            alert('Maximum add six player of you selected player list')
         }
         else 
         {
@@ -58,8 +63,8 @@ const Main = ({coin,handleCoinUpdate}) => {
         <div className="flex justify-between my-10">
             <h1>{available ? 'Available Players':`Selected Player ${SelectedPlayer.length}/6`}</h1>
             <div className="flex gap-3">
-                <button onClick={handleAvailable} className="btn btn-accent">Available </button>
-                <button onClick={handleSelected} className="btn btn-accent">Selected</button>
+                <button onClick={handleAvailable} className={`btn ${available?'btn-accent':''}`}>Available </button>
+                <button onClick={handleSelected} className={`btn ${selected?'btn-accent':''}`}>Selected</button>
             </div>
         </div>
 
