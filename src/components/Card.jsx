@@ -1,9 +1,9 @@
 
 
-const Card = ({player}) => {
+const Card = ({player,handleSelectedPlayer}) => {
     const {player_name,player_image,country,plyer_type,rating,price} = player
     return (       
-        <div className="card  w-full shadow-sm">
+            <div className={`card  w-full shadow-sm`}>
             <figure>
                 <img
                 className="w-full h-64 object-cover hover:scale-110 transition-transform duration-300 "
@@ -23,7 +23,7 @@ const Card = ({player}) => {
                 </div>
                 <div className="flex justify-between text-[12px]">
                     <p>Price: {price}</p>
-                    <button className="btn btn-sm">Choose Player</button>
+                    <button onClick={()=>handleSelectedPlayer(player)} className="btn btn-sm">Choose Player</button>
                 </div>
             </div>
         </div>

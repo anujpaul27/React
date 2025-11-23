@@ -2,12 +2,19 @@ import { useState } from 'react';
 import logo from '../assets/logo.png'
 import Header from './Header';
 import DollarIcon from '../assets/dollar.png'
+import Main from './main';
 const Navbar = () => {
     const [coin,setCoin] = useState(0)
 
     function handleCoin ()
     {
         setCoin(coin+100)
+    }
+
+    function handleCoinUpdate (newCoin)
+    {
+        setCoin(newCoin)
+        console.log('object');
     }
 
     return (
@@ -25,6 +32,7 @@ const Navbar = () => {
             </div>
         </div>
         <Header handleCoin={handleCoin}></Header>
+        <Main coin={coin} handleCoinUpdate={handleCoinUpdate}></Main>
 
         </section>
         
