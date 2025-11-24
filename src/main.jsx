@@ -5,11 +5,15 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom"
-
+import Header from './Home/Header'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div>Hello Iam from teligoan </div>
+    element: <Header></Header>
+  },
+  {
+    path:'/about',
+    element: <div>Hello going him </div>
   }
 ])
 
