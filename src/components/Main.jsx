@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "./Card";
 import SelectedCart from "./SelectedCart";
+import LineChart from "../Chart/LineChart";
 
 const Main = ({coin,handleCoinUpdate}) => {
 
@@ -93,6 +94,8 @@ const Main = ({coin,handleCoinUpdate}) => {
                 }
             </ul>
         </div>
+
+        
             
     </section>
     );
