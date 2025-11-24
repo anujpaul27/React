@@ -1,9 +1,14 @@
+import { useLoaderData } from "react-router-dom";
+import ShowUser from "./ShowUser";
 
 const Header = () => {
+    const users = useLoaderData()
     return (
         <div>
-            <h1>Iam Rending from HOME PAGE  </h1>   
-            <p>header hero is the fist showable section in any  website</p>         
+            <h1>Users: {users.length}  </h1>   
+            {
+                users.map(user=> <ShowUser key={user.id} user={user}></ShowUser>)
+            }         
         </div>
     );
 };
