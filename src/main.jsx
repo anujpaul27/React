@@ -6,14 +6,28 @@ import {
   RouterProvider,
 } from "react-router-dom"
 import Header from './Home/Header'
+import Navbar from './Home/Navbar'
+import Contract from './Home/Contract'
+import About from './Home/About'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Header></Header>
-  },
-  {
-    path:'/about',
-    element: <div>Hello going him </div>
+    element: <Navbar></Navbar>,
+    children: [
+      {
+        path: '/header',
+        element: <Header></Header>
+      },
+      {
+        path: '/about',
+        element:<About></About>
+      },
+
+      {
+        path: '/Contract',
+        element: <Contract> </Contract>
+      }
+    ]
   }
 ])
 
