@@ -10,10 +10,12 @@ import Navbar from './Home/Navbar'
 import Contract from './Home/Contract'
 import About from './Home/About'
 import DetailUser from './Home/DetailUser'
+import ErrorPage from './Home/ErrorPage'
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Navbar></Navbar>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: '/header',
