@@ -1,37 +1,30 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 
 const Form = () => {
-
-    const [name, setName] = useState(null)
-    const [password,setPassword] = useState(null)
-
+    
+    const refName = useRef()
+    const refPassword = useRef()
     function onSubmit (e)
     {
         e.preventDefault()
-        // console.log(e.target.name.value);
-        console.log(name, password);
+        console.log(refName.current.value);
+        console.log(refPassword.current.value);
     }
     
-    function handleName (e)
-    {
-        // console.log(e.target.value);
-        setName(e.target.value)
-    }
-
-    function handlePassword (e)
-    {
-        // console.log(e.target.value);
-        setPassword(e.target.value)
-    }
 
     return (
         <div className='w-1/3 mx-auto mt-30 '>
             <h1 className='text-3xl mx-auto m-5'>Form</h1>
 
             <form action="" onSubmit={onSubmit}>
-                <input onChange={handleName} className='border border-gray-500' type="text" name="name" id="" />
+                <input 
+                defaultValue={'Anuj'}
+                ref={refName} 
+                className='border border-gray-500' 
+                type="text" 
+                name="name" id="" />
                 <br />
-                <input onChange={handlePassword} className='border border-gray-500' type="password" name="Password" id="" />
+                <input ref={refPassword} className='border border-gray-500' type="password" name="Password" id="" />
                 <br />
                 <input type="Submit" value={'Submit'} />
             </form>
