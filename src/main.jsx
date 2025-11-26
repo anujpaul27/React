@@ -9,6 +9,7 @@ import Header from './Home/Header'
 import Navbar from './Home/Navbar'
 import Contract from './Home/Contract'
 import About from './Home/About'
+import DetailUser from './Home/DetailUser'
 const router = createBrowserRouter([
   {
     path: '/',
@@ -27,6 +28,12 @@ const router = createBrowserRouter([
       {
         path: '/Contract',
         element: <Contract> </Contract>
+        
+      },
+      {
+        path: '/:userId',
+        loader: ({params})=> fetch(`https://jsonplaceholder.typicode.com/users/${params.userId}`),
+        element: <DetailUser></DetailUser>
       }
     ]
   }
