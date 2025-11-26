@@ -10,7 +10,7 @@ const ShowUser = ({user}) => {
         
         <div>
             <p className="text-3xl">ID: {id} And This Name is {name}</p>
-            <Link to={`/${id}`}>See details</Link>
+            <Link to={`/${id}`}><button>See details</button></Link>
         </div>
     );
 };
