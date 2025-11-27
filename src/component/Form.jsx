@@ -1,24 +1,26 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 
-const Form = () => {
+const Form = ({heading, btnText, information, children}) => {
     
     const refName = useRef()
     const refPassword = useRef()
     function onSubmit (e)
     {
         e.preventDefault()
-        console.log(refName.current.value);
-        console.log(refPassword.current.value);
+        const name = refName.current.value;
+        const password = refPassword.current.value;
+
+        information({name:name, password:password})
     }
     
 
     return (
-        <div className='w-1/3 mx-auto mt-30 '>
-            <h1 className='text-3xl mx-auto m-5'>Form</h1>
-
+        <div className='w-1/3 mx-auto mt-10 '>
+            {/* <h1 className='text-3xl mx-auto m-5'>{heading}</h1> */}
+            {children}
             <form action="" onSubmit={onSubmit}>
-                <input 
-                defaultValue={'Anuj'}
+                
+                <input                 
                 ref={refName} 
                 className='border border-gray-500' 
                 type="text" 
@@ -26,7 +28,7 @@ const Form = () => {
                 <br />
                 <input ref={refPassword} className='border border-gray-500' type="password" name="Password" id="" />
                 <br />
-                <input type="Submit" value={'Submit'} />
+                <input type="Submit" value={btnText} />
             </form>
         </div>
     );
