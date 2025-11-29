@@ -1,0 +1,74 @@
+[
+  {
+    "identity": "B001",
+    "title": "The Lost Art of Good Conversation",
+    "author": "Sakyong Mipham",
+    "book_type": "Young",
+    "rating": 4.6,
+    "cover_image": "./The Lost Art of Good Conversation.png"
+  },
+  {
+    "identity": "B002",
+    "title": "Cold-Case Christianity",
+    "author": "J. Warner Wallace",
+    "book_type": "children",
+    "rating": 4.8,
+    "cover_image": "./Cold-Case Christianity.png"
+  },
+  {
+    "identity": "B003",
+    "title": "Annotated Texas Family Code 2019",
+    "author": "Texas Legislature",
+    "book_type": "other",
+    "rating": 4.9,
+    "cover_image": "./Annotated Texas Family Code 2019.png"
+  },
+  {
+    "identity": "B004",
+    "title": "The Hate U Give (Collector's Edition)",
+    "author": "Angie Thomas",
+    "book_type": "Young",
+    "rating": 4.8,
+    "cover_image": "./The Hate U Give (Collector’s Edition).png"
+  },
+  {
+    "identity": "B005",
+    "title": "Loving Jesus More",
+    "author": "Philip Yancey & Others",
+    "book_type": "Adult",
+    "rating": 4.7,
+    "cover_image": "./Loving Jesus More.png"
+  },
+  {
+    "identity": "B006",
+    "title": "Spine of the Dragon",
+    "author": "Kevin J. Anderson",
+    "book_type": "Youth",
+    "rating": 4.5,
+    "cover_image": "./Spine of the Dragon.png"
+  },
+  {
+    "identity": "B007",
+    "title": "The Dating Playbook For Men",
+    "author": "Andrew Ferebee",
+    "book_type": "higher",
+    "rating": 4.6,
+    "cover_image": "./The Dating Playbook For Men.png"
+  },
+  {
+    "identity": "B008",
+    "title": "Why Do You Hate Money?",
+    "author": "Joey Percia",
+    "book_type": "children",
+    "rating": 4.7,
+    "cover_image": "./Why Do You Hate Money.png"
+  },
+  {
+    "identity": "B009",
+    "title": "The Scholarship Monthly Planner",
+    "author": "Marianne Ragins",
+    "book_type": "youth",
+    "rating": 4.4,
+    "cover_image": "./The Scholarship Monthly Planner.png"
+  }
+]
