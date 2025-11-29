@@ -22,7 +22,7 @@ const Login = () => {
     {
         signOut(auth)
         .then(result=>{
-            console.log('Sign Out Success');
+            console.log('Sign Out Success',result);
             setUser(null)
         })
         .catch(error=>{
@@ -34,13 +34,9 @@ const Login = () => {
     return (
         <div>
             {
-                !user && 
+                user ? <button onClick={handleSignOut} className='btn btn-success'>Sign Out</button> : 
                 <button onClick={handleLogin} className='btn btn-success'>Login with google</button>
-            }            
-            {
-                user && <button onClick={handleSignOut} className='btn btn-success'>Sign Out</button>
-            }
-            
+            }                        
 
             {
                 user && <div>
