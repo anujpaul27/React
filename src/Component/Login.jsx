@@ -6,6 +6,7 @@ const Login = () => {
     const [user, setUser] = useState(null)
     const provider = new GoogleAuthProvider();
     const githubProvider = new GithubAuthProvider();
+    const [githubUser, setgithubUser] = useState(null)
 
     const handleLogin = ()=>
     {
@@ -36,7 +37,7 @@ const Login = () => {
     {
         signInWithPopup(auth,githubProvider)
         .then(result=>{
-            console.log(result.user);
+            setgithubUser(result.user);
         })
         .catch(error => {
             console.log(error);
@@ -57,6 +58,14 @@ const Login = () => {
                     <h1>Name: {user.displayName}</h1>
                     <p>Email: {user.email}</p>
                     <img src={user.photoURL} alt="" />
+                </div>
+                
+            }
+            {
+                githubUser && <div>
+                    <h1>Name: {githubUser.displayName}</h1>
+                    <p>Email: {githubUser.email}</p>
+                    <img src={githubUser.photoURL} alt="" />
                 </div>
             }
         </div>
