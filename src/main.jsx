@@ -7,6 +7,7 @@ import Header from './component/Header.jsx'
 import Main from './component/main.jsx'
 import Login from './Component/Login.jsx'
 import Registration from './Component/Registration.jsx'
+import SignIn from './Component/SignIn.jsx'
 
 const router = createBrowserRouter ([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter ([
       {
         path: '/SignUp',
         element: <Registration> </Registration>
+      },
+      {
+        path: '/SignIn',
+        element: <SignIn></SignIn>
       }
     ]
   }

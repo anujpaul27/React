@@ -58,7 +58,7 @@ const Registration = () => {
 
         createUserWithEmailAndPassword(auth,email,password)
         .then(result=> {
-            setSuccessMessage('Registration successful');
+            setSuccessMessage('Registration successful',result);
         })
         .catch(error=>{
             console.log(error);

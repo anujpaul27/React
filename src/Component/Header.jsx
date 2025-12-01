@@ -5,6 +5,7 @@ const Header = () => {
     const links = <>
         <li> <NavLink to={'/'}> Home</NavLink>  </li>
         <li> <NavLink to={'SignUp'}> Sign Up</NavLink> </li>
+        <li> <NavLink to={'SignIn'}> Sign In</NavLink> </li>
         </>
   return (
     <div className="navbar bg-base-100 shadow-sm">
